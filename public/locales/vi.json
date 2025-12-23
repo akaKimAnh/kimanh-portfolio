@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "about": "Giới thiệu",
+    "experience": "Kinh nghiệm",
+    "projects": "Dự án",
+    "skills": "Kỹ năng"
+  },
+  "profile": {
+    "name": "Kim Anh",
+    "title": "Lập trình viên Android",
+    "description": "Mình xây dựng các ứng dụng Android đáng tin cậy và khám phá trải nghiệm di động hiện đại."
+  },
+
+  "about": {
+    "title": "Giới thiệu",
+    "paragraph1": "Mình là một <b>Lập trình viên Android</b> đam mê xây dựng <b>các ứng dụng di động đáng tin cậy, tập trung vào người dùng</b>. Mình thích làm việc trên các sản phẩm kết hợp thiết kế tinh tế với hiệu năng, ổn định và trải nghiệm thực tế.",
+    "paragraph2": "Hiện tại, mình làm việc tại <b>MOBILE-ID</b> với vai trò <b>Lập trình viên Android</b>, đóng góp phát triển <b>Trusted Pay</b> — giải pháp <b>quản lý thanh toán và giao dịch bằng QR</b> cho doanh nghiệp. Công việc bao gồm xây dựng các tính năng Android cốt lõi, <b>tích hợp API</b>, xử lý <b>cập nhật giao dịch thời gian thực</b>, và đảm bảo ứng dụng chạy mượt, ổn định trong <b>môi trường production</b>.",
+    "paragraph3": "Trước đây, mình đã có cơ hội làm việc trên cả dự án <b>di động</b> và <b>web</b>, hợp tác chặt chẽ với <b>team backend và sản phẩm</b>. Bên cạnh phát triển Android, mình cũng khám phá <b>Zalo Mini App</b> để xây dựng giao diện nhẹ, hiện đại cho công cụ nội bộ và khách hàng."
+  },
+  "experience": [
+    {
+      "role": "Zalo Mini App",
+      "company": "MOBILE-ID",
+      "period": "Th12 2025 — Nay",
+      "description": [
+        "Nghiên cứu và thử nghiệm các component ZMP / Zalo UI để xây dựng mini app đáp ứng và thân thiện với người dùng.",
+        "Kiểm thử các pattern UI và tích hợp với dịch vụ di động hiện có, đảm bảo tuân thủ hướng dẫn thiết kế và best practices."
+      ],
+      "tags": ["ZMP", "Zalo Mini App", "React JS", "TypeScript"],
+      "link": null
+    },
+    {
+      "role": "Lập trình viên Android",
+      "company": "MOBILE-ID",
+      "period": "Th5 2024 — Nay",
+      "description": [
+        "Tích hợp backend APIs để xử lý dữ liệu và workflow trong ứng dụng Android.",
+        "Triển khai Single Sign-On (SSO) bằng Keycloak theo chuẩn OAuth 2.0 / OpenID Connect.",
+        "Triển khai thông báo push bằng Firebase Cloud Messaging (FCM) để nhận thông báo thời gian thực.",
+        "Phát triển tính năng Text-to-Speech (TTS) để đọc nội dung thông báo.",
+        "Triển khai quét QR code để lấy và xử lý thông tin CCCD."
+      ],
+      "tags": ["Java", "Firebase"],
+      "link": "https://play.google.com/store/apps/details?id=vn.mobileid.trustedpay.client"
+    },
+    {
+      "role": "Lập trình viên Frontend",
+      "company": "MOBILE-ID",
+      "period": "Th8 2023 — Th4 2024",
+      "description": [
+        "Triển khai giao diện thông tin nội bộ bằng React.js và Tailwind CSS, tuân thủ nghiêm ngặt hướng dẫn thiết kế từ Figma.",
+        "Phát triển trang thông tin và quản lý nội bộ cho Trusted Pay, tập trung vào UI và hiển thị dữ liệu theo thiết kế.",
+        "Xây dựng giao diện web cho FacialSense, chuyển đổi chính xác layout từ Figma thành trang web đáp ứng."
+      ],
+      "tags": ["React JS", "JavaScript", "HTML", "CSS"],
+      "link": null
+    }
+  ],
+  "projects": [
+    {
+      "title": "Ứng dụng di động Trusted Pay",
+      "description": "Ứng dụng Android chính cho Mobile-ID, quản lý CCCD, đăng nhập SSO, thông báo push, TTS và quét QR code.",
+      "tags": ["Java", "Firebase", "Android", "Keycloak", "FCM", "TTS"],
+      "link": "https://play.google.com/store/apps/details?id=vn.mobileid.trustedpay.client"
+    },
+    {
+      "title": "Web Trusted Pay",
+      "description": "Giao diện web thông tin công khai cho Trusted Pay, theo thiết kế Figma và hiển thị dữ liệu người dùng/giao dịch.",
+      "type": "Web Information",
+      "tags": ["React JS", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+      "link": "https://trustedpay.mobile-id.vn/internal/"
+    },
+    {
+      "title": "Web FacialSense",
+      "description": "Giao diện web công khai cho FacialSense, chuyển đổi layout từ Figma thành các trang web đáp ứng.",
+      "type": "Web Information",
+      "tags": ["React JS", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+      "link": "https://facialsense.mobile-id.vn/"
+    },
+    {
+      "title": "Zalo Mini App Maps",
+      "description": "Chức năng định vị, dẫn đường và tìm kiếm địa điểm bằng ZMP SDK.",
+      "tags": ["ZMP", "Zalo Mini App", "React JS", "TypeScript"],
+      "link": "https://zalo.me/s/2833744340405435271/"
+    }
+  ],
+  "view": "Xem",
+  "skills": {
+    "groups": [
+      {
+        "title": "Di động (Chính)",
+        "skills": [
+          "Android (Java)",
+          "Firebase",
+          "FCM",
+          "Text-to-Speech (TTS)",
+          "Quét QR Code"
+        ]
+      },
+      {
+        "title": "Web (Kiến thức cơ bản)",
+        "skills": [
+          "ReactJS",
+          "TypeScript",
+          "Tailwind CSS",
+          "Giao diện Responsive"
+        ]
+      },
+      {
+        "title": "Xác thực & Bảo mật",
+        "skills": ["Keycloak", "SSO", "OAuth 2.0"]
+      },
+      {
+        "title": "Nền tảng",
+        "skills": ["Android", "Zalo Mini App (ZMP SDK)", "Tích hợp RESTful API"]
+      }
+    ]
+  }
+}

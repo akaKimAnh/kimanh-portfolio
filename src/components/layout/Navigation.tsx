@@ -1,14 +1,16 @@
 import { useActiveSection } from '../../hooks/useActiveSection';
-
-const NAV_ITEMS = [
-  { id: 'about', label: 'About' },
-  { id: 'experience', label: 'Experience' },
-  { id: 'projects', label: 'Projects' },
-  { id: 'skills', label: 'Skills' },
-];
+import { useTranslation } from 'react-i18next';
 
 export default function Navigation() {
   const active = useActiveSection();
+  const { t } = useTranslation();
+
+  const NAV_ITEMS = [
+    { id: 'about', label: t('nav.about') },
+    { id: 'experience', label: t('nav.experience') },
+    { id: 'projects', label: t('nav.projects') },
+    { id: 'skills', label: t('nav.skills') },
+  ];
 
   const scrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -33,7 +35,7 @@ export default function Navigation() {
                   ${
                     isActive
                       ? 'text-slate-100 font-semibold'
-                      : 'text-slate-500 hover:text-slate-300'
+                      : 'text-slate-300 hover:text-slate-300'
                   }
                 `}
               >

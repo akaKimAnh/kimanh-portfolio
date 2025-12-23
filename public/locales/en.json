@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills"
+  },
+  "profile": {
+    "name": "Kim Anh",
+    "title": "Android Developer",
+    "description": "I build reliable Android applications and explore modern mobile experiences."
+  },
+  "about": {
+    "title": "About",
+    "paragraph1": "I’m an <b>Android Developer</b> passionate about building <b>reliable, user-focused mobile applications</b>. I enjoy working on products that combine thoughtful design with focusing on performance, stability, and real-world usability.",
+    "paragraph2": "Currently, I work at <b>MOBILE-ID</b> as an <b>Android Developer</b>, where I contribute to the development of <b>Trusted Pay</b> — a <b>QR-based payment and transaction management solution</b> for businesses. My work involves building core Android features, <b>integrating APIs</b>, handling <b>real-time transaction updates</b>, and ensuring smooth, stable app behavior in <b>production environments</b>.",
+    "paragraph3": "Previously, I’ve had the opportunity to work on both <b>mobile</b> and <b>web projects</b>, collaborating closely with <b>backend and product teams</b>. Alongside Android development, I’ve also explored <b>Zalo Mini App</b> to build lightweight, modern interfaces for internal and customer-facing tools."
+  },
+  "experience": [
+    {
+      "role": "Zalo Mini App",
+      "company": "MOBILE-ID",
+      "period": "Dec 2025 — Present",
+      "description": [
+        "Researching and experimenting with ZMP / Zalo UI components to build responsive and user-friendly mini apps.",
+        "Testing UI patterns and integration with existing mobile services, ensuring consistency with design guidelines and best practices."
+      ],
+      "tags": ["ZMP", "Zalo Mini App", "React JS", "TypeScript"],
+      "link": null
+    },
+    {
+      "role": "Android Developer",
+      "company": "MOBILE-ID",
+      "period": "May 2024 — Present",
+      "description": [
+        "Integrated backend APIs to handle data retrieval and application workflows in Android applications.",
+        "Implemented Single Sign-On (SSO) authentication using Keycloak, following OAuth 2.0 / OpenID Connect flows.",
+        "Implemented push notifications using Firebase Cloud Messaging (FCM) to receive and handle real-time notifications.",
+        "Developed Text-to-Speech (TTS) functionality to read notification content aloud.",
+        "Implemented QR code scanning features to extract and process citizen ID (CCCD) information."
+      ],
+      "tags": ["Java", "Firebase"],
+      "link": "https://play.google.com/store/apps/details?id=vn.mobileid.trustedpay.client"
+    },
+    {
+      "role": "Frontend Developer",
+      "company": "MOBILE-ID",
+      "period": "Aug 2023 — Apr 2024",
+      "description": [
+        "Implemented internal web information interfaces using React.js and Tailwind CSS, strictly following Figma design guidelines.",
+        "Developed internal information and management pages for Trusted Pay, focusing on UI implementation and data display based on predefined designs.",
+        "Built web-based information interfaces for FacialSense, accurately translating Figma layouts into responsive web pages."
+      ],
+      "tags": ["React JS", "JavaScript", "HTML", "CSS"],
+      "link": null
+    }
+  ],
+  "projects": [
+    {
+      "title": "Trusted Pay Mobile App",
+      "description": "Main Android application for Mobile-ID, handling citizen ID (CCCD), SSO login, push notifications, TTS, and QR scanning features.",
+      "tags": ["Java", "Firebase", "Android", "Keycloak", "FCM", "TTS"],
+      "link": "https://play.google.com/store/apps/details?id=vn.mobileid.trustedpay.client"
+    },
+    {
+      "title": "Trusted Pay Web",
+      "description": "Public web information interface for Trusted Pay, following Figma designs and displaying user/transaction data.",
+      "type": "Web Information",
+      "tags": ["React JS", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+      "link": "https://trustedpay.mobile-id.vn/internal/"
+    },
+    {
+      "title": "FacialSense Web",
+      "description": "Public web information interface for FacialSense, translating Figma layouts into responsive web pages.",
+      "type": "Web Information",
+      "tags": ["React JS", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+      "link": "https://facialsense.mobile-id.vn/"
+    },
+    {
+      "title": "Zalo Mini App Maps",
+      "description": "Navigation, route, and search location using ZMP SDK.",
+      "tags": ["ZMP", "Zalo Mini App", "React JS", "TypeScript"],
+      "link": "https://zalo.me/s/2833744340405435271/"
+    }
+  ],
+  "view": "View",
+  "skills": {
+    "groups": [
+      {
+        "title": "Mobile (Primary)",
+        "skills": [
+          "Android (Java)",
+          "Firebase",
+          "FCM",
+          "Text-to-Speech (TTS)",
+          "QR Code Scanning"
+        ]
+      },
+      {
+        "title": "Web (Working Knowledge)",
+        "skills": ["ReactJS", "TypeScript", "Tailwind CSS", "Responsive UI"]
+      },
+      {
+        "title": "Auth & Security",
+        "skills": ["Keycloak", "SSO", "OAuth 2.0"]
+      },
+      {
+        "title": "Platform",
+        "skills": [
+          "Android",
+          "Zalo Mini App (ZMP SDK)",
+          "RESTful API Integration"
+        ]
+      }
+    ]
+  }
+}

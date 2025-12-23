@@ -1,6 +1,7 @@
 import Profile from './Profile';
 import Navigation from './Navigation';
 import SocialLinks from './SocialLinks';
+import LanguageToggle from '../LanguageToggle';
 
 export default function Sidebar() {
   return (
@@ -8,6 +9,7 @@ export default function Sidebar() {
       <div>
         <Profile />
         <Navigation />
+        <LanguageToggle />
       </div>
       <SocialLinks />
     </aside>
