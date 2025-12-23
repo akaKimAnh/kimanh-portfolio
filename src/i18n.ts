@@ -14,7 +14,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: '/locales/{{lng}}.json', // đường dẫn file JSON
+      loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}.json`,
     },
   });
 
