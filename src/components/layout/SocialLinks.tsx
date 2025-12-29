@@ -18,7 +18,7 @@ export default function SocialLinks() {
         icon={<LinkedInIcon />}
       />
       <SocialItem
-        href="mailto:kimanh.220102@gmail.com"
+        href="mailto:anhltk.work@gmail.com"
         label="Email"
         icon={<MailIcon />}
       />
